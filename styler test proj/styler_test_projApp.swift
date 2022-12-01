@@ -11,7 +11,7 @@ import SwiftUI
 struct styler_test_projApp: App {
     var body: some Scene {
         WindowGroup {
-            trapezoid()
+            ContentView()
         }
     }
 }

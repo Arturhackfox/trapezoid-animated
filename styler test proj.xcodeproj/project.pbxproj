@@ -76,7 +76,6 @@
 		3266B5C229379923007CE98F = {
 			isa = PBXGroup;
 			children = (
-				3266B5F82938A6DE007CE98F /* trapezoid.swift */,
 				3266B5CD29379923007CE98F /* styler test proj */,
 				3266B5DE29379925007CE98F /* styler test projTests */,
 				3266B5E829379925007CE98F /* styler test projUITests */,
@@ -99,6 +98,7 @@
 			children = (
 				3266B5CE29379923007CE98F /* styler_test_projApp.swift */,
 				3266B5D029379923007CE98F /* ContentView.swift */,
+				3266B5F82938A6DE007CE98F /* trapezoid.swift */,
 				3266B5D229379925007CE98F /* Assets.xcassets */,
 				3266B5D429379925007CE98F /* Preview Content */,
 			);
