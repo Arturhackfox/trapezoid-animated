@@ -11,7 +11,7 @@ struct TestShape: Shape {
     var insetAmount: Double
     var secondValue: Double
 
-    
+    // use : Duble if only 1 value needed to be animated 
     var animatableData: AnimatablePair <Double, Double>{
         get{
           AnimatablePair(insetAmount, secondValue)
