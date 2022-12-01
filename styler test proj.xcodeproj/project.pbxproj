@@ -15,6 +15,9 @@
 		3266B5EA29379925007CE98F /* styler_test_projUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266B5E929379925007CE98F /* styler_test_projUITests.swift */; };
 		3266B5EC29379925007CE98F /* styler_test_projUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266B5EB29379925007CE98F /* styler_test_projUITestsLaunchTests.swift */; };
 		3266B5F92938A6DE007CE98F /* trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266B5F82938A6DE007CE98F /* trapezoid.swift */; };
+		3266B5FB2938C102007CE98F /* arrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266B5FA2938C102007CE98F /* arrowView.swift */; };
+		3266B5FD2938DDAD007CE98F /* colorWheelvIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266B5FC2938DDAD007CE98F /* colorWheelvIEW.swift */; };
+		3266B5FF2938E624007CE98F /* color redo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266B5FE2938E624007CE98F /* color redo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		3266B5E929379925007CE98F /* styler_test_projUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = styler_test_projUITests.swift; sourceTree = "<group>"; };
 		3266B5EB29379925007CE98F /* styler_test_projUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = styler_test_projUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3266B5F82938A6DE007CE98F /* trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trapezoid.swift; sourceTree = "<group>"; };
+		3266B5FA2938C102007CE98F /* arrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrowView.swift; sourceTree = "<group>"; };
+		3266B5FC2938DDAD007CE98F /* colorWheelvIEW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorWheelvIEW.swift; sourceTree = "<group>"; };
+		3266B5FE2938E624007CE98F /* color redo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "color redo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,8 @@
 		3266B5C229379923007CE98F = {
 			isa = PBXGroup;
 			children = (
+				3266B5FE2938E624007CE98F /* color redo.swift */,
+				3266B5FC2938DDAD007CE98F /* colorWheelvIEW.swift */,
 				3266B5CD29379923007CE98F /* styler test proj */,
 				3266B5DE29379925007CE98F /* styler test projTests */,
 				3266B5E829379925007CE98F /* styler test projUITests */,
@@ -99,6 +107,7 @@
 				3266B5CE29379923007CE98F /* styler_test_projApp.swift */,
 				3266B5D029379923007CE98F /* ContentView.swift */,
 				3266B5F82938A6DE007CE98F /* trapezoid.swift */,
+				3266B5FA2938C102007CE98F /* arrowView.swift */,
 				3266B5D229379925007CE98F /* Assets.xcassets */,
 				3266B5D429379925007CE98F /* Preview Content */,
 			);
@@ -260,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3266B5FB2938C102007CE98F /* arrowView.swift in Sources */,
 				3266B5F92938A6DE007CE98F /* trapezoid.swift in Sources */,
 				3266B5D129379923007CE98F /* ContentView.swift in Sources */,
+				3266B5FD2938DDAD007CE98F /* colorWheelvIEW.swift in Sources */,
+				3266B5FF2938E624007CE98F /* color redo.swift in Sources */,
 				3266B5CF29379923007CE98F /* styler_test_projApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
